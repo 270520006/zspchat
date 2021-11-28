@@ -69,4 +69,4 @@
     * 群成员在线：在线直接接收到后，直接IO到用户本地。
     * 群成员离线：将消息推送到MQ，MQ使用订阅模式发送到当时为离线状态的用户上（MQ仅存储三天内的消息）
 
-![zspchat流程图 (1)](README/zspchat流程图 (1).png)
+![zspchat流程图](README/zspchat流程图.png)
